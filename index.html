@@ -1,0 +1,109 @@
+<html>
+	<head>
+        <title>Mapping Inequality</title>
+        <!-- JQuery -->
+        <script  src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+        <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Bootstrap JS CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Main. CSS -->
+        <link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Mapping Inequality</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Housing</a></li>
+		        <li><a href="#">Schools</a></li>
+		        <li><a href="#">Infracture Investment</a></li>
+		        <li><a href="#">Join</a></li>
+		        <li><a href="#">Login</a></li>		      
+		    </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 main-map">Map goes here</div>
+				<div class="col-sm-4">
+					<label for="state">State</label>
+					<input type="text" name="state" list="statename">
+					<datalist id="statename">
+						<option value="Alabama"></option>
+						<option value="Alaska"></option> 
+						<option value="Arizona"></option> 
+						<option value="Arkansas"></option> 
+						<option value="California"></option> 
+						<option value="Colorado"></option> 
+						<option value="Connecticut"></option> 
+						<option value="Delaware"></option> 
+						<option value="Florida"></option> 
+						<option value="Georgia"></option> 
+						<option value="Hawaii"></option> 
+						<option value="Idaho"></option> 
+						<option value="Illinois"></option> 
+						<option value="Indiana"></option>
+						<option value="Iowa"></option> 
+						<option value="Kansas"></option> 
+						<option value="Kentucky"></option> 
+						<option value="Louisiana"></option> 
+						<option value="Maine"></option> 
+						<option value="Maryland"></option> 
+						<option value="Massachusetts"></option> 
+						<option value="Michigan"></option> 
+						<option value="Minnesota"></option> 
+						<option value="Mississippi"></option> 
+						<option value="Missouri"></option> 
+						<option value="Montana"></option> 
+						<option value="Nebraska"></option> 
+						<option value="Nevada"></option> 
+						<option value="New Hampshire"></option> 
+						<option value="New Jersey"></option> 
+						<option value="New Mexico"></option> 
+						<option value="New York"></option> 
+						<option value="North Carolina"></option> 
+						<option value="North Dakota"></option> 
+						<option value="Ohio"></option> 
+						<option value="Oklahoma"></option> 
+						<option value="Oregon"></option> 
+						<option value="Pennsylvania"></option>
+						<option value="Rhode Island"></option>  
+						<option value="South Carolina"></option> 
+						<option value="South Dakota"></option> 
+						<option value="Tennessee"></option> 
+						<option value="Texas"></option> 
+						<option value="Utah"></option> 
+						<option value="Vermont"></option> 
+						<option value="Virginia"></option> 
+						<option value="Washington"></option> 
+						<option value="West Virginia"></option> 
+						<option value="Wisconsin"></option> 
+						<option value="Wyoming"></option>
+					</datalist>
+				</div>
+			</div>
+		</div>
+
+	
+		<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyDDuGt0E5IEGkcE6ZfrKfUtE9Ko_de66pA"></script>
+		<!-- app.js -->
+		<script  src="app.js"></script>
+	</body>
+</html>
